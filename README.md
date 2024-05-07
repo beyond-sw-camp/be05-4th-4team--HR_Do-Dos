@@ -10,9 +10,8 @@
 [2. 팀원 소개](#2-팀원-소개)<br>
 [3. 사용 기술](#3-사용-기술)<br>
 [4. 요구사항 명세서](#4-요구사항-명세서)<br>
-[5. 데이터 명세서](#5-데이터-명세서)<br>
-[6. 아키텍쳐](#6-아키텍처)<br>
-[7. 테스트계획 및 결과 보고서](#7-테스트계획-및-결과-보고서)<br>
+[5. 테이블 명세서](#5-데이터-명세서)<br>
+[6. 테스트케이스](#6-테스트케이스)<br>
   
 
 
@@ -22,10 +21,18 @@
 
 ### 📢 주요 기능 및 특징  <br/>
 
+1️⃣ **로그인 및 로그아웃**: 사용자는 자체 계정으로 로그인하여 플랫폼에 액세스할 수 있으며 로그아웃 할 수 있습니다.
+<br/>
+2️⃣ **사용자 회원가입**: 사용자는 ID,비밀번호,이름으로 회원 가입을 할 수 있습니다.
+<br/>
+3️⃣ **할 일 관리**: 사용자는 할 일을 추가하고 삭제할 수 있습니다. 또한 완료 처리도 가능합니다.
+<br/>
+<br/>
+
 ###  기대 효과 및 가치
 
-## 2. 팀원 소개
 
+## 2. 팀원 소개
 |:-:|:-:|:-:|:-:|:-:|
 |<br/>[@Jrhkdtn](https://github.com/Jrhkdtn)|광수<br/>[@OrangeVinyl](https://github.com/OrangeVinyl)|수환<br/>[@chaewon02](https://github.com/chaewon02)|채원<br/>[@itsjaeya](https://github.com/itsjaeya)|윤재<br/>[@SpecialSHipDobby](https://github.com/SpecialSHipDobby)|시현
 <br/>
@@ -48,10 +55,10 @@
 
 ## 3. 사용 기술
 ## FRONTEND
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" /> <img src="https://img.shields.io/badge/Vuetify-1867C0.svg?style=for-the-badge&logo=vuetify&logoColor=white" />
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
 
 ## BACKEND
-<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" /> <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" />
+<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" /> <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/springdatajpa-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 
 ## DB
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white" /> <img src="https://img.shields.io/badge/ElasticCache-005571?style=for-the-badge&logo=elastic&logoColor=white" />
