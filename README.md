@@ -27,7 +27,7 @@
 ## 2. 팀원 소개
 
 |:-:|:-:|:-:|:-:|:-:|
-|광수<br/>[@Jrhkdtn](https://github.com/Jrhkdtn)|수환<br/>[@OrangeVinyl](https://github.com/OrangeVinyl)|채원<br/>[@chaewon02](https://github.com/chaewon02)|윤재<br/>[@itsjaeya](https://github.com/itsjaeya)|시현<br/>[@SpecialSHipDobby](https://github.com/SpecialSHipDobby)|
+|<br/>[@Jrhkdtn](https://github.com/Jrhkdtn)|광수<br/>[@OrangeVinyl](https://github.com/OrangeVinyl)|수환<br/>[@chaewon02](https://github.com/chaewon02)|채원<br/>[@itsjaeya](https://github.com/itsjaeya)|윤재<br/>[@SpecialSHipDobby](https://github.com/SpecialSHipDobby)|시현
 <br/>
 <div>
   광수 : 
