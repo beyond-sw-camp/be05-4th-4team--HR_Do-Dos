@@ -72,7 +72,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          </details>
           <details>
              <summary>Pipeline</summary>
-```
+```back:pipeline
  pipeline {
      agent any
      environment {
