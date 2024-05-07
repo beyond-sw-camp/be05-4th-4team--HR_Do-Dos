@@ -73,7 +73,88 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
           <details>
              <summary>Pipeline</summary>
            ```
-           hi hi why
+           pipeline {
+    agent any
+    environment {
+        DOCKER_IMAGE = 'orangevinyl/dev-front:1.0'
+        
+        GITHUB_CREDENTIALS_ID = 'github-token'
+        DOCKER_CREDENTIALS_ID = 'dockerhub_credentials'
+    }
+    stages {
+        stage('Build') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/OrangeVinyl/dev-front.git',
+                    credentialsId: GITHUB_CREDENTIALS_ID
+            }
+        }
+        
+        stage('Install Dependency'){
+            steps {
+              sh 'npm install'
+            }
+        }
+        
+        stage('Npm Build'){
+            steps {
+              sh 'npm run build'
+            }
+        }
+        
+        stage('Build Docker Image'){
+            steps {
+               script {
+                   sh "docker build -t $DOCKER_IMAGE ."
+               }
+            }
+        }
+        
+        stage('Push Docker Image'){
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                        sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
+                        sh "docker push $DOCKER_IMAGE"
+                    }
+                }
+            }
+        }
+        
+        stage('Run Container'){
+            steps {
+                script {
+                    // Check if the container exists and stop/remove it if it does
+                    sh "docker stop vue-container || true"
+                    sh "docker rm vue-container || true"
+                    
+                    withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                        sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
+                        docker.image("${DOCKER_IMAGE}").run('-p 3000:3000 --name vue-container')
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+     post {
+        success {
+            slackSend(
+                channel: '#dev-project',          
+                color: '#00FF00',        
+                message: "✅ SUCCESSFUL: 배포 성공 '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL}) ========="
+            )
+        }
+        failure {
+            slackSend(
+                channel: '#dev-project',
+                color: '#FF0000',
+                message: "❌ FAIL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL}) ========"
+            )
+        }
+    }
+}
            ```
          </details>
          <details>
