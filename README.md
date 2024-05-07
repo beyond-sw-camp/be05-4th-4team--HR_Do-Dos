@@ -62,10 +62,23 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 <details>
     <summary>백엔드 CI/CD</summary>
          <details>
-             <summary>Jenkins Pipeline</summary>
+             <summary>Jenkins</summary>
                  <video>
                    <source src="동영상_파일_경로.mp4" type="video/mp4">
                  </video>
+         </details>
+          <details>
+             <summary>Pipeline</summary>
+                 ```
+                   agent any
+                  // 변수 정의
+                  environment{
+                      GIT_HUB_CREDENTIALS = credentials('OutPick_Frontend')
+                      DOCKER_HUB_CREDENTIALS =credentials('OutPick_Docker')
+                      DOCKER_IMAGE_NAME = 'lywon/outpick_frontend'
+                      DOCKER_IMAGE_TAG = '1.0'
+                  }
+                 ```
          </details>
          <details>
              <summary>변동사항 슬랙 알람</summary>
