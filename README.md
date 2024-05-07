@@ -62,11 +62,13 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                  <video>
                    <source src="동영상_파일_경로.mp4" type="video/mp4">
                  </video>
+         </details>
+         <details>
              <summary>변동사항 슬랙 알람</summary>
                  <video>
                    <source src="동영상_파일_경로.mp4" type="video/mp4">
                  </video>
-          </details>    
+         </details>
 </details>
 
 <details>
@@ -76,6 +78,8 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                  <video>
                    <source src="동영상_파일_경로.mp4" type="video/mp4">
                  </video>
+         </details>
+         <details>
              <summary>변동사항 슬랙 알람</summary>
                  <video>
                    <source src="동영상_파일_경로.mp4" type="video/mp4">
