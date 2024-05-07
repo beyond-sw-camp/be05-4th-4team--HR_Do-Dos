@@ -25,3 +25,23 @@
 ###  기대 효과 및 가치
 
 ## 2. 팀원 소개
+
+|:-:|:-:|:-:|:-:|:-:|
+|광수<br/>[@Jrhkdtn](https://github.com/Jrhkdtn)|수환<br/>[@OrangeVinyl](https://github.com/OrangeVinyl)|채원<br/>[@chaewon02](https://github.com/chaewon02)|윤재<br/>[@itsjaeya](https://github.com/itsjaeya)|시현<br/>[@SpecialSHipDobby](https://github.com/SpecialSHipDobby)|
+<br/>
+<div>
+  광수 : 
+</div>
+<div>
+  수환 : 
+</div>
+<div>
+  채원 : 
+</div>
+<div>
+  윤재 : 
+</div>
+<div>
+  시현 : 
+</div>
+<br/>
