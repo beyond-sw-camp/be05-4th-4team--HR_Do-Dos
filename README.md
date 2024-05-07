@@ -1,7 +1,5 @@
 <div align="center">
-<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/114909535/3394ac19-b808-4616-8c57-e40b6b78b07b"
-
- width="850" height="650">
+<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/114909535/3394ac19-b808-4616-8c57-e40b6b78b07b"width="850" height="650">
 </div>
 </br>
 </br>
@@ -20,3 +18,10 @@
   <br/>
 ## 1. 프로젝트 소개
 저희 Do-Dos 프로젝트는 인사 시스템 관리
+
+
+### 📢 주요 기능 및 특징  <br/>
+
+###  기대 효과 및 가치
+
+## 2. 팀원 소개
