@@ -2,17 +2,17 @@
 <img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/114909535/3394ac19-b808-4616-8c57-e40b6b78b07b"width="500" height="350">
 </div>
 </br>
-</br>
-</br>
+
 
 ## 목차 📄
 [1. 프로젝트 소개](#1-프로젝트-소개)<br>
 [2. 팀원 소개](#2-팀원-소개)<br>
 [3. 사용 기술](#3-사용-기술)<br>
-[4. 요구사항 명세서](#4-요구사항-명세서)<br>
-[5. 테이블 명세서](#5-데이터-명세서)<br>
-[6. 테스트케이스](#6-테스트케이스)<br>
-  
+[4. ERD](#4-요구사항-명세서)<br>
+[5. 요구사항 명세서](#5-요구사항-명세서)<br>
+[6. 테이블 명세서](#6-테이블-명세서)<br>
+[7. 테스트케이스](#6-테스트-케이스)<br>
+<br/>
 
 
 ## 1. 프로젝트 소개
@@ -42,26 +42,7 @@
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | <div align="center">[최수환](https://github.com/OrangeVinyl)</div>                                                                   | <div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>                                                            | <div align="center"> [정광수](https://github.com/Jrhkdtn)</div>                                                                    | <div align="center"> [이윤재](https://github.com/itsjaeya)</div>                                                                     | <div align="center"> [방채원](https://github.com/chaewon02)</div>                                                                       |
 </div>
-<!-- </br>
-
-<div>
-  수환 : 백엔드 개발, 백엔드 배포
-</div>
-<div>
-  시현 : 백엔드 개발, READ.ME 작성
-</div>
-<div>
-  광수 : 백엔드 개발, READ.ME 작성
-</div>
-<div>
-  윤재 : 프론트엔드 개발, 프론트엔드 배포
-</div>
-<div>
-  채원 : 프론트엔드 개발, 프론트엔드 배포
-</div>
-<br/>
- -->
- </br>
+</br>
  
 ## 3. 사용 기술
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
@@ -73,7 +54,6 @@
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </br>
 
-<br/>
 ## 4. ERD
 [ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4)
 <div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2abd9576-18c1-4f04-8557-41afee3339d1" width="600" /></div>
