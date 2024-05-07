@@ -14,17 +14,20 @@
 <br/>
 
 ## 1. 프로젝트 소개
-Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리를 통해 일정을 관리할 수 있는 프로그램입니다. </br>
-로그인 후 Todo List를 만들어 할 일을 관리하고, 완료된 일정은 체크 표시 클릭을 통해 완성되지 않은 업무와 구분이 가능하도록 상태 변경이 가능합니다. 
-또한 삭제 기능 구현을 통해 깔끔하고 간편한 일정 관리가 가능하도록 구현하였습니다.
+Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리를 통해 일정을 관리할 수 있습니다. </br>
+로그인 후 Todo List를 만들어 할 일을 관리하고, 완료된 일정은 체크 표시 클릭을 통해</br>
+완성되지 않은 업무와 구분이 가능하도록 상태 변경이 가능합니다. </br>
+또한 삭제 기능 구현을 통해 깔끔하고 간편한 일정 관리가 가능하도록 하였습니다.
 </br>
 </br>
 
 ### 📢 주요 기능 및 특징
 
-1️⃣ **로그인 및 로그아웃**: 사용자는 자체 계정으로 로그인하여 플랫폼에 액세스할 수 있으며 로그아웃 할 수 있습니다.
+1️⃣ **사용자 회원가입**: </br>
+사용자는 ID, 비밀번호로 회원 가입을 할 수 있습니다.
 <br/>
-2️⃣ **사용자 회원가입**: 사용자는 ID,비밀번호,이름으로 회원 가입을 할 수 있습니다.
+2️⃣ **로그인 및 로그아웃**: </br>
+사용자는 자체 계정으로 로그인하여 서비스에 액세스할 수 있으며 로그아웃 할 수 있습니다.
 <br/>
 3️⃣ **할 일 관리**: 사용자는 할 일을 추가하고 삭제할 수 있습니다. 또한 완료 처리도 가능합니다.
 <br/>
@@ -70,6 +73,88 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
           <details>
              <summary>Pipeline</summary>
                  ```
+pipeline {
+    agent any
+    environment {
+        DOCKER_IMAGE = 'orangevinyl/dev-front:1.0'
+        
+        GITHUB_CREDENTIALS_ID = 'github-token'
+        DOCKER_CREDENTIALS_ID = 'dockerhub_credentials'
+    }
+    stages {
+        stage('Build') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/OrangeVinyl/dev-front.git',
+                    credentialsId: GITHUB_CREDENTIALS_ID
+            }
+        }
+        
+        stage('Install Dependency'){
+            steps {
+              sh 'npm install'
+            }
+        }
+        
+        stage('Npm Build'){
+            steps {
+              sh 'npm run build'
+            }
+        }
+        
+        stage('Build Docker Image'){
+            steps {
+               script {
+                   sh "docker build -t $DOCKER_IMAGE ."
+               }
+            }
+        }
+        
+        stage('Push Docker Image'){
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                        sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
+                        sh "docker push $DOCKER_IMAGE"
+                    }
+                }
+            }
+        }
+        
+        stage('Run Container'){
+            steps {
+                script {
+                    // Check if the container exists and stop/remove it if it does
+                    sh "docker stop vue-container || true"
+                    sh "docker rm vue-container || true"
+                    
+                    withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                        sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
+                        docker.image("${DOCKER_IMAGE}").run('-p 3000:3000 --name vue-container')
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+     post {
+        success {
+            slackSend(
+                channel: '#dev-project',          
+                color: '#00FF00',        
+                message: "✅ SUCCESSFUL: 배포 성공 '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL}) ========="
+            )
+        }
+        failure {
+            slackSend(
+                channel: '#dev-project',
+                color: '#FF0000',
+                message: "❌ FAIL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL}) ========"
+            )
+        }
+    }
+}
                  ```
          </details>
          <details>
