@@ -72,7 +72,9 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          </details>
           <details>
              <summary>Pipeline</summary>
-                 ```hi hi why```
+           ```
+           hi hi why
+           ```
          </details>
          <details>
              <summary>변동사항 슬랙 알람</summary>
