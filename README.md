@@ -34,7 +34,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 ## 2. 팀원 소개
 <div align="center">
 
-| <img src="" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/b621c195-599c-44bc-b608-ff456478f94f" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/c80695b9-023c-4b44-b639-1135e96e290f" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/dc28d157-b3aa-4341-86bf-557b1270a428" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/446ca013-5a9d-4700-b487-5939a765fa8f" height="150" /> |
+| <img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/112090609/a2619638-9fa1-41fb-9f6e-cc4bf80085fe" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/b621c195-599c-44bc-b608-ff456478f94f" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/c80695b9-023c-4b44-b639-1135e96e290f" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/dc28d157-b3aa-4341-86bf-557b1270a428" height="150" /> | <img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/446ca013-5a9d-4700-b487-5939a765fa8f" height="150" /> |
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | <div align="center">[최수환](https://github.com/OrangeVinyl)</div>                                                                   | <div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>                                                            | <div align="center"> [정광수](https://github.com/Jrhkdtn)</div>                                                                    | <div align="center"> [이윤재](https://github.com/itsjaeya)</div>                                                                     | <div align="center"> [방채원](https://github.com/chaewon02)</div>                                                                       |
 </div>
@@ -54,9 +54,32 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 ## 4. API 명세서
 [API 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
 
-## 5. 빌드 과정 및 배포
-1. JAR 파일 만들기
-```
-</DIV>
-```
-   
+## 5. CI/CD 시현 영상
+<details>
+    <summary>백엔드 CI/CD</summary>
+         <details>
+             <summary>Jenkins Pipeline</summary>
+                 <video>
+                   <source src="동영상_파일_경로.mp4" type="video/mp4">
+                 </video>
+             <summary>변동사항 슬랙 알람</summary>
+                 <video>
+                   <source src="동영상_파일_경로.mp4" type="video/mp4">
+                 </video>
+          </details>    
+</details>
+
+<details>
+    <summary>프론트엔드 CI/CD</summary>
+         <details>
+             <summary>Jenkins Pipeline</summary>
+                 <video>
+                   <source src="동영상_파일_경로.mp4" type="video/mp4">
+                 </video>
+             <summary>변동사항 슬랙 알람</summary>
+                 <video>
+                   <source src="동영상_파일_경로.mp4" type="video/mp4">
+                 </video>
+         </details>
+</details>
+
