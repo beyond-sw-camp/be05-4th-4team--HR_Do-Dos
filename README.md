@@ -54,7 +54,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 </br>
 </br>
 
-<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/112090609/27d105dc-6e49-4bb8-a60c-63df139a01de" width="600">
+<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/112090609/27d105dc-6e49-4bb8-a60c-63df139a01de" width="600" height="1000">
 </br>
 <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264" width="600">
 </br>
@@ -66,7 +66,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 </br>
 
 
-## 5. CI/CD 시현 영상
+## 5. CI/CD 시현
 <details>
     <summary>백엔드 CI/CD</summary>
          <details>
@@ -77,7 +77,6 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          </details>
          <details>
              <summary>Pipeline</summary>
-                 
          </details>
          <details>
              <summary>변동사항 슬랙 알람</summary>
@@ -86,6 +85,8 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                  </video>
          </details>
 </details>
+</br>
+
 <details>
     <summary>프론트엔드 CI/CD</summary>
          <details>
