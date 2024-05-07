@@ -34,55 +34,69 @@
 
 
 ## 2. 팀원 소개
-|:-:|:-:|:-:|:-:|:-:|
-|<br/>[@Jrhkdtn](https://github.com/Jrhkdtn)|광수<br/>[@OrangeVinyl](https://github.com/OrangeVinyl)|수환<br/>[@chaewon02](https://github.com/chaewon02)|채원<br/>[@itsjaeya](https://github.com/itsjaeya)|윤재<br/>[@SpecialSHipDobby](https://github.com/SpecialSHipDobby)|시현
-<br/>
-<div>
-  광수 : 백엔드 개발, READ.ME 작성
+<div align="center">
+
+| <img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/f4876b56-0b13-481c-95c9-3a33c72efff9" height="150" /> | <img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/646cfee4-1f8e-40dc-a40e-39e19f08f336" height="150" /> | <img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/5bce9023-19c1-4f84-a224-83694f5d4ec5" height="150" /> | <img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/0bca0c7b-d376-47bc-8d50-e8f56620d573" height="150" /> | <img src="https://github.com/beyond-sw-camp/be05-2nd-SoEZ-EZCheck/assets/112090609/5c194c91-15f4-4e3d-ad0c-5c5e502b401c" height="150" /> |
+|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| <div align="center">[최수환](https://github.com/OrangeVinyl)</div>                                                                   | <div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>                                                            | <div align="center"> [정광수](https://github.com/Jrhkdtn)</div>                                                                    | <div align="center"> [이윤재](https://github.com/itsjaeya)</div>                                                                     | <div align="center"> [방채원](https://github.com/chaewon02)</div>                                                                       |
 </div>
+<!-- </br>
+
 <div>
   수환 : 백엔드 개발, 백엔드 배포
 </div>
 <div>
+  시현 : 백엔드 개발, READ.ME 작성
+</div>
+<div>
+  광수 : 백엔드 개발, READ.ME 작성
+</div>
+<div>
+  윤재 : 프론트엔드 개발, 프론트엔드 배포
+</div>
+<div>
   채원 : 프론트엔드 개발, 프론트엔드 배포
 </div>
-<div>
-  윤재 : 프론트엔드 개발
-</div>
-<div>
-  시현 : 백엔드 개발
-</div>
 <br/>
-
+ -->
+ 
 ## 3. 사용 기술
-## FRONTEND
+### FRONTEND
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
+</br>
 
-## BACKEND
+### BACKEND
 <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" /> <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/springdatajpa-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+</br>
 
-## DB
+### DB
 <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white" /> 
+</br>
 
-## DevOps
+### DevOps
 <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+</br>
 
-## TOOLS
+### TOOLS
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/slack-purple?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+</br>
 
+## 4. ERD
+[ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4)
+<div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2abd9576-18c1-4f04-8557-41afee3339d1" width="600" /></div>
+</br>
 
-## 4. 요구사항 명세서
+## 5. 요구사항 명세서
 [요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=1027163956)
 <div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2aa808ab-0d90-4407-ae04-ca4212b559fa" width="600" /></div>
-</br>74c-a52ca455b0a2" alt="요구사항 명세서" style='border-radius: 100px;'>
+</br>
 
-
-## 5. 테이블 명세서
+## 6. 테이블 명세서
 [테이블명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=2132224808)
 <div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/7be84700-5dc0-4c1f-b40e-3427d74f1747" width="600" /></div>
 </br>
 
-## 6. 테스트 케이스
+## 7. 테스트 케이스
 [테스트 케이스 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
 
 <details>
