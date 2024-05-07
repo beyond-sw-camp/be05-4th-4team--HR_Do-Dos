@@ -70,14 +70,6 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
           <details>
              <summary>Pipeline</summary>
                  ```
-                   agent any
-                  // 변수 정의
-                  environment{
-                      GIT_HUB_CREDENTIALS = credentials('OutPick_Frontend')
-                      DOCKER_HUB_CREDENTIALS =credentials('OutPick_Docker')
-                      DOCKER_IMAGE_NAME = 'lywon/outpick_frontend'
-                      DOCKER_IMAGE_TAG = '1.0'
-                  }
                  ```
          </details>
          <details>
