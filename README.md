@@ -53,6 +53,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 
 ## 4. API 명세서
 [API 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
+</br>
 
 ## 5. CI/CD 시현 영상
 <details>
