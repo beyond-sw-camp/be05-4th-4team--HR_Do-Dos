@@ -72,13 +72,12 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          </details>
           <details>
              <summary>Pipeline</summary>
-           ```
+
         
 pipeline {
     agent any
     environment {
         DOCKER_IMAGE = 'orangevinyl/dev-front:1.0'
-        
         GITHUB_CREDENTIALS_ID = 'github-token'
         DOCKER_CREDENTIALS_ID = 'dockerhub_credentials'
     }
