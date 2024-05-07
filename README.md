@@ -51,26 +51,12 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 </br>
 </br>
 
-## 4. ERD
-[ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4)
-<div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2abd9576-18c1-4f04-8557-41afee3339d1" width="600" /></div>
-</br>
+## 4. API 명세서
+[API 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
 
-## 5. 요구사항 명세서
-[요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=1027163956)
-<div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2aa808ab-0d90-4407-ae04-ca4212b559fa" width="600" /></div>
-</br>
-
-## 6. 테이블 명세서
-[테이블명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=2132224808)
-<div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/7be84700-5dc0-4c1f-b40e-3427d74f1747" width="600" /></div>
-</br>
-
-## 7. 테스트 케이스
-[테스트 케이스 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
-
-<details>
-<summary>테스트 케이스</summary>
-  <img src="" alt="요구사항 명세서" style='border-radius: 100px;'>
-
-</details>
+## 5. 빌드 과정 및 배포
+1. JAR 파일 만들기
+```
+</DIV>
+```
+   
