@@ -52,6 +52,8 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </br>
+</br>
+
 <img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/112090609/27d105dc-6e49-4bb8-a60c-63df139a01de" width="600">
 </br>
 <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264" width="600">
