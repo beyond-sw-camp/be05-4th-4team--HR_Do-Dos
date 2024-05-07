@@ -32,6 +32,8 @@
 
 ###  기대 효과 및 가치
 
+</br>
+
 
 ## 2. 팀원 소개
 <div align="center">
@@ -71,6 +73,7 @@
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </br>
 
+<br/>
 ## 4. ERD
 [ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4)
 <div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2abd9576-18c1-4f04-8557-41afee3339d1" width="600" /></div>
