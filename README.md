@@ -72,18 +72,18 @@
 
 
 ## 4. 요구사항 명세서
+[요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=1027163956)
+<div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/2aa808ab-0d90-4407-ae04-ca4212b559fa" width="600" /></div>
+</br>74c-a52ca455b0a2" alt="요구사항 명세서" style='border-radius: 100px;'>
 
-<details>
-<summary>요구사항 명세서</summary>
-  <img src="https://github.com/beyond-sw-camp/be05-2nd-4Rang-SlowStep/assets/132131921/7f4d3e6e-1c13-4400-a74c-a52ca455b0a2" alt="요구사항 명세서" style='border-radius: 100px;'>
-
-</details>
 
 ## 5. 테이블 명세서
-
-  [기능명세서](https://docs.google.com/viewer?url=https://github.com/beyond-sw-camp/be05-2nd-4Rang-SlowStep/files/14768307/03.27.11.09.pdf)
+[테이블명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=2132224808)
+<div align="left"><img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/7be84700-5dc0-4c1f-b40e-3427d74f1747" width="600" /></div>
+</br>
 
 ## 6. 테스트 케이스
+[테스트 케이스 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
 
 <details>
 <summary>테스트 케이스</summary>
