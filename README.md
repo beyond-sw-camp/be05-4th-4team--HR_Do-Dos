@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/114909535/3394ac19-b808-4616-8c57-e40b6b78b07b"width="850" height="650">
+<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/114909535/3394ac19-b808-4616-8c57-e40b6b78b07b"width="500" height="350">
 </div>
 </br>
 </br>
