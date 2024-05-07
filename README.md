@@ -72,7 +72,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          </details>
           <details>
              <summary>Pipeline</summary>
-
+```
         
 pipeline {
     agent any
@@ -89,19 +89,19 @@ pipeline {
                     credentialsId: GITHUB_CREDENTIALS_ID
             }
         }
-        
+
         stage('Install Dependency'){
             steps {
               sh 'npm install'
             }
         }
-        
+
         stage('Npm Build'){
             steps {
               sh 'npm run build'
             }
         }
-        
+
         stage('Build Docker Image'){
             steps {
                script {
@@ -109,7 +109,7 @@ pipeline {
                }
             }
         }
-        
+
         stage('Push Docker Image'){
             steps {
                 script {
@@ -120,7 +120,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage('Run Container'){
             steps {
                 script {
@@ -155,7 +155,8 @@ pipeline {
         }
     }
 }
-           ```
+
+```
          </details>
          <details>
              <summary>변동사항 슬랙 알람</summary>
