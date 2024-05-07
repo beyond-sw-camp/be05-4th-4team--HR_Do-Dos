@@ -49,12 +49,14 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </br>
-    <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264">
+    <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264" width="600">
 </br>
 
 ## 4. API 명세서
 [API 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
 </br>
+</br>
+
 
 ## 5. CI/CD 시현 영상
 <details>
