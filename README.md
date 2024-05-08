@@ -79,11 +79,10 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          <details>
              <summary>Pipeline</summary>
 ```Pipeline
-          pipeline {
+pipeline {
     agent any
     environment {
         DOCKER_IMAGE = 'orangevinyl/dev-front:1.0'
-        
         GITHUB_CREDENTIALS_ID = 'github-token'
         DOCKER_CREDENTIALS_ID = 'dockerhub_credentials'
     }
@@ -95,19 +94,16 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                     credentialsId: GITHUB_CREDENTIALS_ID
             }
         }
-        
         stage('Install Dependency'){
             steps {
               sh 'npm install'
             }
         }
-        
         stage('Npm Build'){
             steps {
               sh 'npm run build'
             }
         }
-        
         stage('Build Docker Image'){
             steps {
                script {
@@ -115,7 +111,6 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                }
             }
         }
-        
         stage('Push Docker Image'){
             steps {
                 script {
@@ -126,7 +121,6 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                 }
             }
         }
-        
         stage('Run Container'){
             steps {
                 script {
@@ -137,13 +131,11 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
                     withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
                         sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
                         docker.image("${DOCKER_IMAGE}").run('-p 3000:3000 --name vue-container')
-                        
                     }
                 }
             }
         }
     }
-    
      post {
         success {
             slackSend(
@@ -162,7 +154,8 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
     }
 }
 ```
-         </details>
+</details>
+
          <details>
              <summary>변동사항 슬랙 알람</summary>
                  <video>
