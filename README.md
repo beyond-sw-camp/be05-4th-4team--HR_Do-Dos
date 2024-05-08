@@ -60,7 +60,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 
 ## 4. ERD
 [ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4) </br>
-<img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/425b9547-6696-4ef4-9b27-e401260f8f2f" width="600">
+<img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/425b9547-6696-4ef4-9b27-e401260f8f2f" width="1000">
 </br>
 </br>
 
