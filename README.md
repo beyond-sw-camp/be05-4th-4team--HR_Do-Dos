@@ -79,8 +79,10 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
          <details>
              <summary>Pipeline</summary>
                  <div markdown="1">
+                  <code>
+                   
                      ```pipeline
-                     pipeline {
+    pipeline {
     agent any
     environment {
         DOCKER_IMAGE = 'orangevinyl/dev-front:1.0'
@@ -162,7 +164,9 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
         }
     }
 }
+
                      ```
+                     </code>
                  </div>
          </details>
          <details>
