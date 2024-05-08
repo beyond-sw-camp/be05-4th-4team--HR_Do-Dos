@@ -43,6 +43,8 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 </br>
  
 ## 3. 사용 기술
+<div align="center">
+</br>
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
 </br>
 <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" /> <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/springdatajpa-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
@@ -54,7 +56,7 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 </br>
 <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264" width="600">
 </br>
-
+</div>
 
 ## 4. ERD
 [ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4) </br>
