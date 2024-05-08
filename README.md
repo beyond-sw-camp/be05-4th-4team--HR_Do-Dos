@@ -159,8 +159,7 @@ pipeline {
         }
     }
 }
-         
-         </code></pre>
+</code></pre>
          </details>
          <details>
              <summary>변동사항 슬랙 알람</summary>
