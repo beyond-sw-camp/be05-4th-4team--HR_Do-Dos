@@ -7,10 +7,9 @@
 [1. 프로젝트 소개](#1-프로젝트-소개)<br>
 [2. 팀원 소개](#2-팀원-소개)<br>
 [3. 사용 기술](#3-사용-기술)<br>
-[4. API 명세서](#4-API-명세서)<br>
-[5. 요구사항 명세서](#5-요구사항-명세서)<br>
-[6. 테이블 명세서](#6-테이블-명세서)<br>
-[7. 테스트 케이스](#7-테스트-케이스)<br>
+[4. ERD](#4-ERD)<br>
+[5. API 명세서](#5-API-명세서)<br>
+[6. CI/CD](#6-CI/CD)<br>
 <br/>
 
 ## 1. 프로젝트 소개
@@ -53,20 +52,20 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </br>
 </br>
-
-<img src="https://github.com/beyond-sw-camp/be05-4th-4team--HR_Do-Dos/assets/112090609/27d105dc-6e49-4bb8-a60c-63df139a01de" width="600">
-</br>
-</br>
 <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264" width="600">
 </br>
 
+## 4. ERD
+[ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4)
+<img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/bc2e3a54-4121-4209-b11d-c63791797ba9" width="600" /> 
+</br>
 
-## 4. API 명세서
+## 5. API 명세서
 [API 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1cw6FaStuatZ1BdqudmgyIY26N-iJVF-qD2FZlwRVD8o/edit#gid=427773154)
 </br>
 </br>
 
-## 5. CI/CD
+## 6. CI/CD
 <details>
     <summary>백엔드 CI/CD</summary>
          <details>
