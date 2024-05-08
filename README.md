@@ -55,9 +55,11 @@ Do-Dos 프로젝트는 회원가입을 통해 Todo 리스트 작성 및 관리�
 <img src="https://github.com/beyond-sw-camp/be05-2nd-5team-SoEZ-EZCheck/assets/112090609/0d77b0a9-6269-44ac-8fba-270f8b189264" width="600">
 </br>
 
+
 ## 4. ERD
-[ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4)
-<img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/bc2e3a54-4121-4209-b11d-c63791797ba9" width="600" /> 
+[ERD 바로가기 >](https://www.erdcloud.com/d/3rbMmXinezSxWpEQ4) </br>
+<img src="https://github.com/OrangeVinyl/dev-back/assets/112090609/425b9547-6696-4ef4-9b27-e401260f8f2f" width="600">
+</br>
 </br>
 
 ## 5. API 명세서
